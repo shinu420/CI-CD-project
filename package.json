@@ -1,4 +1,4 @@
-{
+Set-Content -Path package.json -Value '{
   "name": "node-app",
   "version": "1.0.0",
   "description": "My Node.js app",
@@ -7,4 +7,4 @@
     "test": "echo \"No test defined\" && exit 0"
   },
   "dependencies": {}
-}
+}' -Encoding ascii
