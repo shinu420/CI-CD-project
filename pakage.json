@@ -1,0 +1,10 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "My Node.js app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"No test defined\" && exit 0"
+  },
+  "dependencies": {}
+}
