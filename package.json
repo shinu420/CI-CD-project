@@ -1,7 +1,7 @@
 Set-Content -Path package.json -Value '{
-  "name": "node-app",
+  "name": "flask-app",
   "version": "1.0.0",
-  "description": "My Node.js app",
+  "description": "My flask app",
   "main": "app.js",
   "scripts": {
     "test": "echo \"No test defined\" && exit 0"
