@@ -2,19 +2,11 @@ pipeline {
     agent any
 
     environment {
-        APP_NAME = "ci-cd-demo"
         IMAGE_NAME = "ci-cd-demo:latest"
         CONTAINER_NAME = "ci-cd-container"
     }
 
     stages {
-
-        stage('Checkout Code') {
-            steps {
-                git branch: 'main',
-                    url: 'https://github.com/shinu420/ci-cd-demo.git'
-            }
-        }
 
         stage('Build Docker Image') {
             steps {
